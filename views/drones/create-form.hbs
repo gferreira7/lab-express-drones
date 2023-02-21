@@ -1,1 +1,12 @@
-<h2>Create a new drone</h2>
+<div class="container form-styling">
+  <h2 class="mb-4">Create a new drone</h2>
+
+  <form action='/drones/create' method='post'>
+
+    <input class="form-control mb-2" placeholder='Name' type='text' name='name' />
+    <input class="form-control mb-2" placeholder='Propellers' type='number' name='propellers' />
+    <input class="form-control mb-4" placeholder='Max Speed' type='number' name='maxSpeed' />
+
+    <button class="btn btn-light" type='submit'>Create Drone</button>
+  </form>
+</div>
